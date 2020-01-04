@@ -24,11 +24,10 @@ import shutil
 import tempfile
 
 from docutils import nodes, utils
-from docutils.parsers.rst import directives
+from docutils.parsers.rst import directives, Directive
 
 from sphinx.errors import SphinxError
 from sphinx.util import ensuredir
-from sphinx.util.compat import Directive
 
 ####################################################################################################
 
